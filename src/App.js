@@ -2,7 +2,7 @@
 function App() {
   return (
     <div >
-    React works
+    React works in netlify
       
     </div>
   );
