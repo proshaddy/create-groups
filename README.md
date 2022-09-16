@@ -20,16 +20,44 @@ const grouping = (items, noPerGroup) => {
 ```javascript
 // Example
 
-const csvUpload = (upload) => {
-    // convert to JSON then JSON.
+const upload = (upload) => {
+    // check the type of file, for now allow - Array, JSON, CSV and xls
+    // convert JSON, then Array -> or direcly to array.
     // Call the grouping function to perform grouping.
 }
 
 ```
 
-3. Other ideas 
+3. Allow Spreadsheet Upload 
+
+```javascript
+// Make sure can upload spreadsheet 
+// Make use of upload function shown above
+
+```
+
+4. Save in computer/phone local storage
+
+```javascript
+// Save to local storage for sometime. (and display)
+// localStorage.setItem(), etc methods
+
+```
+
+
+5. Other ideas 
     a. Allow multiple selection using other characters e.g gender balance groups
     b. Think of other metrics
+
+# Example 
+
+
+Take for instance, `[student1, student2, student3, student4, student5, student6]` and group them into groups of `2 students`, example of result might be:
+```
+Group 1 - [student1, student3]
+Group 2 - [student2, student6]
+Group 3 - [student4, student5]
+```
 
 # Contributors 
 
