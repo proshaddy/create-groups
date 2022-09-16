@@ -11,7 +11,7 @@ This projects helps people create groups based on the items provided.
 // Example
 
 const grouping = (items, noPerGroup) => {
-    // group the items[] by the number of people
+    // group the items[] by the number per group
 }
 ```
 
@@ -20,10 +20,14 @@ const grouping = (items, noPerGroup) => {
 ```javascript
 // Example
 
-const upload = (upload) => {
+const upload = (file, columnName, noPerGroup) => {
+    // columnName -> the colunm we are pulling the numbers from -> can advance this in the future
     // check the type of file, for now allow - Array, JSON, CSV and xls
     // convert JSON, then Array -> or direcly to array.
     // Call the grouping function to perform grouping.
+    const items = file // data after pulling from file
+    const results = grouping(items, noPerGroup)
+    return results
 }
 
 ```
