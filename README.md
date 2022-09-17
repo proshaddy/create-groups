@@ -1,8 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e55b8400-46c3-44b0-96d1-cb101549dd1a/deploy-status)](https://app.netlify.com/sites/create-groups/deploys) [website](https://create-groups.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e55b8400-46c3-44b0-96d1-cb101549dd1a/deploy-status)](https://app.netlify.com/sites/create-groups/deploys) 
 # Create Groups
 
 This projects helps people create groups based on the items provided.
-
+[click here](https://create-groups.netlify.app/) to see the website
 
 # What Are some of the Task 
 
